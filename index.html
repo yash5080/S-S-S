@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sri Sai Swagruha Home Foods</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">
+            <img src="logo.png" alt="Sri Sai Swagruha Logo">
+        </div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#order">Order</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="hero-section">
+            <h1>Authentic South Indian Home Cooking</h1>
+            <p>Traditional Flavors, Homemade with Love</p>
+            <a href="#order" class="cta-button">Order Now</a>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu">
+        <h2>Our Popular Dishes</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <img src="logo.png" alt="Sambar Rice">
+                <h3>Sambar Rice</h3>
+                <p>Traditional rice with spicy lentil curry</p>
+                <span class="price">₹120</span>
+            </div>
+            <div class="menu-item">
+                <img src="logo.png" alt="Masala Dosa">
+                <h3>Masala Dosa</h3>
+                <p>Crispy crepe with potato filling</p>
+                <span class="price">₹80</span>
+            </div>
+            <!-- Add more menu items -->
+        </div>
+    </section>
+
+    <!-- Order Section -->
+    <section id="order">
+        <h2>Place Your Order</h2>
+        <form id="orderForm">
+            <div class="form-group">
+                <label>Name</label>
+                <input type="text" required>
+            </div>
+            <div class="form-group">
+                <label>Phone Number</label>
+                <input type="tel" required>
+            </div>
+            <div class="form-group">
+                <label>Select Dishes</label>
+                <select width=300 style="width: 350px" 
+                size="8" multiple>
+                    <option>Sambar Rice</option>
+                    <option>Masala Dosa</option>
+                    <option>Idli</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Delivery Type</label>
+                <select width=300 style="width: 350px" 
+                size="8">
+                    <option>Pickup</option>
+                    <option>Home Delivery</option>
+                </select>
+            </div>
+            <button type="submit">Confirm Order</button>
+        </form>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-info">
+            <p>📞 +91 9876543210</p>
+            <p>📍 123, South Street, Chennai</p>
+            <p>✉️ srisaiswagruha@gmail.com</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Sri Sai Swagruha Home Foods</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
